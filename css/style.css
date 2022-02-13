@@ -1,0 +1,284 @@
+@import "null.css";
+
+
+/* ============================================================================================= */
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+
+}
+.main {
+    padding-bottom: 60px;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    background-image: url("../img/background.jpg");
+}
+.heading {
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 35px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    color: rgb(18, 17, 19);
+    
+}
+.heading span {
+    color: red;
+    text-transform: uppercase;
+}
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.block-one {
+    padding: 40px 0;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+.block-one-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.block-one-block {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 35px 10px;
+    background-color: white;
+
+}
+.block-one-text {
+    margin-bottom: 35px;
+    font-size: 25px;
+}
+.property {
+    font-weight: 600;
+    margin-right: 15px;
+}
+.square {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: red;
+}
+.name {
+    display: inline-block;
+    margin-right: 20px;
+}
+.comment {
+    color: rgba(128, 128, 128, 0.7);
+}
+.block-one-block .comment {
+    margin-bottom: 0;
+}
+.block-two {
+    padding: 180px 0 240px;
+    width: 100%;
+    background: url("../img/03.png") right bottom no-repeat, url("../img/02.jpg") 0 0 / cover;
+    margin-bottom: 40px;
+}
+.block-two-title {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 63px;
+    padding-left: 80px;
+    max-width: 550px;
+    line-height: 1.4;
+    color: rgb(84, 16, 148);
+    font-style: italic;
+}
+.block-three {
+    line-height: 2;
+    color: transparent;
+    background: linear-gradient(180deg, rgba(242,234,53,1) 0%, rgba(238,53,28,1) 100%);
+    margin-bottom: 40px;
+}
+.block-three span {
+    color: black;
+    font-weight: 600;
+    padding-left: 20px;
+    
+}
+.block-four {
+    max-width: 600px;
+    color: transparent;
+    background-image: url("../img/smile.png");
+    margin-bottom: 40px;
+}
+.block-five {
+    max-width: 800px;
+    background: url("../img/smile.png") 0 0 / 94px repeat-y;
+}
+.block-five div {
+    max-width: 700px;
+    padding: 60px 0 60px 150px;
+    font-size: 20px;
+}
+.block-five p {
+    margin-bottom: 20px;
+}
+.block-six {
+    max-width: 500px;
+    margin-left: auto;
+    background: url("../img/smile.png") right / 94px repeat-y;
+}
+.block-six ul {
+    padding: 60px 150px 60px 0;
+    font-size: 20px;
+}
+.block-six li {
+    margin-bottom: 20px;
+}
+.block-seven {
+    max-width: 500px;
+    padding: 35px 20px;
+    font-size: 20px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.block-seven li {
+    margin-bottom: 15px;
+    padding: 0 0 0 40px;
+    background: url("../img/check.svg") 0 0 / 20px 20px  no-repeat;
+}
+.block-seven h3 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.block-eight {
+    max-width: 450px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    padding: 50px 20px 116px 164px;
+    background: #f9fad1 url(../img/grass-gb751fe003_640.png) left bottom / 100% no-repeat ;
+    font-size: 14px;
+    border-radius: 15px;
+    border: 2px solid red;
+}
+.block-eight p {
+    margin-bottom: 15px;
+}
+.block-eight h3 {
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: red;
+    font-style: italic;
+}
+.block-nine {
+    padding: 25px 25px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    font-style: italic;
+    font-weight: 700;
+    color: rgb(247, 248, 251);
+    background:  url("../img/car.jpg") center / cover no-repeat;
+    margin-bottom: 40px;
+}
+.block-nine p {
+    margin-bottom: 40px;
+}
+.block-ten {
+    color: transparent;
+    padding: 180px 15px;
+    font-size: 35px;
+    text-align: center;
+    background: white url("../img/olimp.jpg") center / contain no-repeat fixed;
+    margin-bottom: 40px;
+    max-width: 100%;
+}
+.block-ten p {
+margin-bottom: 40px;
+}
+.second {
+    background: white url("../img/olympic-rings.jpg") center / contain no-repeat local;
+    max-height: 500px;
+    overflow: scroll;
+}
+.second p {
+    color: red;
+}
+.block-last {
+    font-size: 38px;
+    padding: 80px 15px;
+    text-align: center;
+    border: 3px solid #c92f89;
+    border-radius: 20px;
+    background-color: transparent;
+    background-image: url("../img/butterfly.png");
+    background-position: center;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 20px #c92f89;
+}
+.block-last h3 {
+    margin-bottom: 250px;
+}
+
+/* ===========================Вторая часть============================== */
+
+
+.page {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #424551;
+    max-width: 830px;
+    margin: 0 auto;
+    padding: 80px 10px 36px;
+}
+
+.nav{
+    padding: 20px 15px;
+    text-align: center;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 1.3;
+    color: #1E212C;
+    margin-bottom: 92px;
+}
+.images {
+    max-width: 100%;
+    margin-bottom: 60px;
+}
+.page p {
+    margin-bottom: 24px;
+}
+
+.black {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #1E212C;
+}
+.list {
+    margin-bottom: 24px;
+}
+.list li {
+    padding-left: 32px;
+    background: url(../img/check.svg) 0 5px / 16px 16px no-repeat;
+    line-height: 1.6;
+    min-height: 16px;
+}
+.quote {
+    padding: 24px 0 24px 58px;
+    background: url(../img/braces.png) 0 24px / 28px no-repeat;
+}
+.subscribe {
+    max-width: 600px;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 1.3;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
